@@ -1,0 +1,461 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "Work",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "comment",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "hours",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "projectName",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "taskName",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "also started to work on another issue, the db index maintenance, i worked 2 hour with that and checked 3 out of 10 tables and its respective indexes.",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 43,
+          "endPos": 62,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 74,
+          "endPos": 74,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 95,
+          "endPos": 147,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i completed to cut the meat during cooking yesterday, it took meg 1 hour, the meat was so clean",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 15,
+          "endPos": 26,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 35,
+          "endPos": 41,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 66,
+          "endPos": 66,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 74,
+          "endPos": 94,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i passed to refactor entities in the kontrolldoktor project on 5 july, took 3 hours as overtime",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 12,
+          "endPos": 28,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 37,
+          "endPos": 50,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 76,
+          "endPos": 76,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i worked 4 hours on machine learning in workdaylogger bot during the day, it was interesting to train it",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "hours",
+          "startPos": 9,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 20,
+          "endPos": 35,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 40,
+          "endPos": 56,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 74,
+          "endPos": 103,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i worked 7 hours on the 5. homework in szori, code is mostly done but is not tested in postman",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "hours",
+          "startPos": 9,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 20,
+          "endPos": 34,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 39,
+          "endPos": 43,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 46,
+          "endPos": 93,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "in 5 hours i learned something new about blockchain development to start to work on out tradingbot, im really excited and motivated to start it tomorrow",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "hours",
+          "startPos": 3,
+          "endPos": 3,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 13,
+          "endPos": 62,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 88,
+          "endPos": 97,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 100,
+          "endPos": 151,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "last monday i integrated a new microservice for the cineam websocket project, i worked 8 hours on it. we need to add one more to handle paying, task created.",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 14,
+          "endPos": 42,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 52,
+          "endPos": 67,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 87,
+          "endPos": 87,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 102,
+          "endPos": 155,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "last wednesday i created a new database schema for user informations to our cinema project, i spent 8 hours with it. the conclusion was that we have to refactor the entities to earn a clearer database",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 27,
+          "endPos": 67,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 76,
+          "endPos": 81,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 100,
+          "endPos": 100,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 117,
+          "endPos": 199,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "on 3 august i successfully passed the table validation task during the migration, it was quite slow so i want to check them later",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 38,
+          "endPos": 53,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 71,
+          "endPos": 79,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 82,
+          "endPos": 128,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "on monday i was working on the db review, i successfully completed the checking the given stored procedures issue, it took me 3 and a half hour. the conclusion after the issue was that, the sp-s didn't use the proper indexes so i needed to explicitly define which indexes to use",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "projectName",
+          "startPos": 31,
+          "endPos": 39,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 71,
+          "endPos": 106,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 126,
+          "endPos": 137,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 145,
+          "endPos": 277,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "started to implement the network services today for the taxi application, it compiles well but validations are not done yet.",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 11,
+          "endPos": 40,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 56,
+          "endPos": 71,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 74,
+          "endPos": 122,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "today i finished my homework in maths, it took 3 hours and i have to practice more in the future",
+      "intent": "Work",
+      "entities": []
+    },
+    {
+      "text": "today i finished the homework in maths, it took 3 hours, the conclusion is that, i have to practice more",
+      "intent": "Work",
+      "entities": []
+    },
+    {
+      "text": "today i worked 8 hours on test named task in homework project, it was onsite, it wasn't overtime, comment is: that was a good day",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "hours",
+          "startPos": 15,
+          "endPos": 15,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 26,
+          "endPos": 29,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 45,
+          "endPos": 52,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 110,
+          "endPos": 128,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "today, i worked on the development of our neural network for image classification and focused on optimalization. i spent 6 hours with it.",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "projectName",
+          "startPos": 42,
+          "endPos": 80,
+          "children": []
+        },
+        {
+          "entity": "taskName",
+          "startPos": 97,
+          "endPos": 110,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 121,
+          "endPos": 121,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "yesterday, i have finished the logistic arrangement on the upcoming company event. i have spent 4 hours and there will be extra expenses.",
+      "intent": "Work",
+      "entities": [
+        {
+          "entity": "taskName",
+          "startPos": 31,
+          "endPos": 50,
+          "children": []
+        },
+        {
+          "entity": "projectName",
+          "startPos": 68,
+          "endPos": 81,
+          "children": []
+        },
+        {
+          "entity": "hours",
+          "startPos": 96,
+          "endPos": 96,
+          "children": []
+        },
+        {
+          "entity": "comment",
+          "startPos": 108,
+          "endPos": 135,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "WorkDayLUIS",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
